@@ -3,7 +3,7 @@ import "./ScoreBoard.scss"
 
 const ScoreBoard = (props) => {
   const {score } = props
-  let response = "Keep Going"
+  let response = "Keep Going!"
   if (score > 50 && score < 125) {
     response = "Well Done"
   } else if (score >= 125 && score < 200) {

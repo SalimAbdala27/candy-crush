@@ -1,3 +1,20 @@
 .score-board{
   text-align: center;
+  padding-top: 3px;
+  color: #146356;
+  border: #DB6B97 5px solid;
+  border-radius: 5px;
+  width: 22vw;
+  height: 10vh;
+  background: rgb(243,197,197);
+  background: linear-gradient(90deg, rgba(243,197,197,1) 0%, rgba(255,188,209,1) 35%, rgba(243,197,197,1) 100%);
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .score-board{
+    width: 70vw;
+    height: 10vh;
+  }
 }
